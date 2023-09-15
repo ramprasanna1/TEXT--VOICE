@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(90deg, rgb(255, 116, 255),rgb(0, 204, 255));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container h1{
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+.container h1 span{
+    color: red;
+}
+textarea{
+    width: 700px;
+    height: 250px;
+    color: rgb(255, 255, 255);
+    background: black ;
+    opacity: .8;
+    font-size: 15px;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+    border-radius: 10px;
+    resize: none;
+    margin-bottom: 50px;
+
+}
+textarea::placeholder{
+    font-size: 16px;
+    color: azure;
+}
+.row{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+button{
+    outline: 0;
+    height: 40px;
+    border: 0;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    background: rgb(0, 0, 0);
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+button img{
+    width: 16px;
+    margin-right: 10px;
+}
+select{
+    flex: 1;
+    color: rgb(255, 253, 253);
+    background: black;
+    height: 40px;
+    padding: 0 20px;
+    outline: 0;
+    border: 0;
+    border-radius: 35px;
+    opacity: .8;
+    appearance: none;
+    
+}
+select option{
+    background: rgb(128, 176, 231);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
